@@ -15,8 +15,8 @@ def main():
     with open('datasets/rosalind_rna.txt', 'r') as f:
         dna = f.read()
 
-    # print the counts
     print(transcribe(dna))
 
 if __name__ == '__main__':
     main()
+    
